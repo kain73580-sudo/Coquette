@@ -1,2 +1,38 @@
 # Coquette
 This can be used for auto parry, sword spawner and more I hope this helpsss!!! 
+-- Auto Parry Function
+local function autoParry()
+    -- Implement auto parry logic here
+end
+
+-- Spawn Swords Function
+local function spawnSword(swordType)
+    -- Implement sword spawning logic here based on the swordType parameter
+end
+
+-- Equip Explosions Function
+local function equipExplosions()
+    -- Implement explosion equipping logic here
+end
+
+-- Effects Emotes Function
+local function effectsEmotes()
+    -- Implement effects emotes logic here
+end
+
+-- Display Purple and Black Background with Bow Icon Function
+local function displayBackgroundWithIcon()
+    -- Implement displaying a purple and black background with a bow icon logic here
+end
+
+-- Main function to combine all functionalities
+local function main()
+    autoParry()
+    spawnSword("Any Sword Type")
+    equipExplosions()
+    effectsEmotes()
+    displayBackgroundWithIcon()
+end
+
+-- Call the main function to execute all functionalities
+main()
