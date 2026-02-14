@@ -1,34 +1,36 @@
-# Gradle files
-.gradle/
-build/
+-- Auto Parry Function
+local function autoParry()
+    -- Implement auto parry logic here
+end
 
-# Local configuration file (sdk path, etc)
-local.properties
+-- Spawn Swords Function
+local function spawnSword(swordType)
+    -- Implement sword spawning logic here based on the swordType parameter
+end
 
-# Log/OS Files
-*.log
+-- Equip Explosions Function
+local function equipExplosions()
+    -- Implement explosion equipping logic here
+end
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+-- Effects Emotes Function
+local function effectsEmotes()
+    -- Implement effects emotes logic here
+end
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+-- Display Purple and Black Background with Bow Icon Function
+local function displayBackgroundWithIcon()
+    -- Implement displaying a purple and black background with a bow icon logic here
+end
 
-# Keystore files
-*.jks
-*.keystore
+-- Main function to combine all functionalities
+local function main()
+    autoParry()
+    spawnSword("Any Sword Type")
+    equipExplosions()
+    effectsEmotes()
+    displayBackgroundWithIcon()
+end
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+-- Call the main function to execute all functionalities
+main()
